@@ -2,9 +2,9 @@
 
 Guideline for creating electron with react applications.
 
-1. **npx create-react-app <app-name>**
+1.  **npx create-react-app**  <app-name>
 
-2. **cd <app-name>**
+2. **cd** <app-name>
 
 3. **npm install electron electron-builder wait-on concurrently --dev**
 
@@ -27,6 +27,14 @@ Guideline for creating electron with react applications.
 12. ```js
     const { app, BrowserWindow, ipcMain } = require('electron');
     ```
+    
+    #### Userful Links
+    
+    1. **Building Guide:** [https://www.electron.build/](https://www.electron.build/)
+    
+    2. **Example Repo:** [https://github.com/kitze/react-electron-example](https://github.com/kitze/react-electron-example)
+    
+    3. **Guide Doc:** [https://medium.com/@kitze/%EF%B8%8F-from-react-to-an-electron-app-ready-for-production-a0468ecb1da3](https://medium.com/@kitze/%EF%B8%8F-from-react-to-an-electron-app-ready-for-production-a0468ecb1da3)
 
 ```js
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -83,8 +91,4 @@ app.on('activate', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
-
 ```
-```
-
-13. 
